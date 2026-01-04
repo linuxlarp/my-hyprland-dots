@@ -1,2 +1,4 @@
+#!/bin/bash
+
 pacman -S --needed < pacman.txt
 paru -S --needed - < aur.txt
