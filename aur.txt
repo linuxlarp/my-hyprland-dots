@@ -1,0 +1,5 @@
+libwireplumber-4.0-compat 0.4.17-2
+mullvad-vpn-bin 2025.14-1
+paru 2.1.0-2
+paru-debug 2.1.0-2
+pwvucontrol 0.5.1-1

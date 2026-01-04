@@ -1,0 +1,155 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#workspaces,
+#window,
+#clock,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#tray,
+#custom-launcher,
+#custom-spotify {
+  background: rgba(30, 25, 40, 0.85);
+  color: #f5c2e7;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin: 0 2px;
+}
+
+#custom-launcher {
+  font-size: 20px;
+  padding: 6px 14px;
+  color: #89b4fa;
+}
+
+#custom-launcher:hover {
+  background: rgba(137, 180, 250, 0.2);
+}
+
+#workspaces {
+  padding: 6px 8px;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  color: #cba6f7;
+  background: transparent;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+  color: #f38ba8;
+  background: rgba(243, 139, 168, 0.2);
+}
+
+#workspaces button:hover {
+  background: rgba(203, 166, 247, 0.15);
+  color: #f5c2e7;
+}
+
+#window {
+  color: #cdd6f4;
+}
+
+#window.empty {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  margin: 0;
+}
+
+#clock {
+  color: #f9e2af;
+  font-weight: 700;
+}
+
+#battery {
+  color: #a6e3a1;
+}
+
+#battery.warning {
+  color: #fab387;
+}
+
+#battery.critical {
+  color: #f38ba8;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+#battery.charging {
+  color: #89dceb;
+}
+
+#network {
+  color: #89dceb;
+  padding: 6px 10px;
+  min-width: 24px;
+
+}
+
+#network.disconnected {
+  color: #f38ba8;
+}
+
+#bluetooth {
+  color: #89b4fa;
+  padding: 6px 10px;
+  min-width: 24px;
+}
+
+#bluetooth.disabled {
+  color: #6c7086;
+}
+
+#pulseaudio {
+  color: #cba6f7;
+}
+
+#pulseaudio.muted {
+  color: #6c7086;
+}
+
+#tray {
+  padding: 6px 12px;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+}
+
+#custom-spotify {
+  color: #a6e3a1;
+}
+
+#window {
+  color: #cdd6f4;
+  margin: 0 2px;
+}
+
+#custom-spotify ~ #window {
+  opacity: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+}
