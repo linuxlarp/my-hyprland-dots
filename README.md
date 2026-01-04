@@ -1,25 +1,69 @@
 # My Hyprland Dots
 
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![Hyprland](https://img.shields.io/badge/Hyprland-58E1FF?style=for-the-badge&logo=wayland&logoColor=black)
+![Waybar](https://img.shields.io/badge/Waybar-0A0E14?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Hello there! It seems you probably stumbled upon this from my profile, these are some of my dotfiles for my Arch Linux install,
-these are not meant for public used and require prior knowledge to understand how to set up. For AUR/Pacman packages, i have provided a script.
+> My personal Hyprland configuration for Arch Linux
 
-These are intended for Arch Linux, you may have to adjust for your distro config-wise. 
+## Preview
 
-If you intend to install these, please make sure you fully understand how to use Hyprland and Waybar, I recommend checking out their documentation pages:
-- [https://wiki.hypr.land/](Hyprland)
-- [https://waybar.org/category/guide/](Waybar)
+![Setup Preview](https://github.com/linuxlarp/my-hyprland-dots/blob/master/example.jpg)
 
-# Package Install Script
-ONLY FOR INTENDED ARCH LINUX, USE AT YOUR OWN RISK
+## Before You Start
 
-To install packages for **Arch Linux**, run the following commands
+These dotfiles are **not beginner-friendly** and require:
+- Prior knowledge of Linux configuration
+- Understanding of dotfiles and how they work
+- Experience with Hyprland and Waybar
 
-``chmod +x install_packages && ./install_packages``
+**These configs are specifically made for Arch Linux.** If you're on another distro, you'll need to adjust things yourself.
 
-**PLEASE USE THESE AT YOUR OWN RISK AND UNDERSTAND THE CONSEQUENCES IF DONE WRONG**
+## Documentation
 
+Make sure you understand these tools before installing:
+- **Hyprland**: [wiki.hyprland.org](https://wiki.hyprland.org/)
+- **Waybar**: [github.com/Alexays/Waybar/wiki](https://github.com/Alexays/Waybar/wiki)
 
-# Example
+## Installation
 
-![Picture](https://github.com/linuxlarp/my-hyprland-dots/blob/master/example.jpg)
+### Automatic Package Install (Arch Linux Only)
+
+**⚠️ USE AT YOUR OWN RISK - Make sure you understand what this script does!**
+
+```bash
+chmod +x install_packages
+./install_packages
+```
+
+This script installs all required packages from the AUR and official repos.
+
+## What's Included
+
+- Hyprland configuration
+- Waybar setup
+- Custom scripts
+- Theme files
+
+## Features
+
+- Clean and minimal design
+- Optimized for performance
+- Custom keybindings
+- Modern aesthetics
+
+## Notes
+
+- Backup your existing configs before installing
+- Review all config files to understand what they do
+- Modify settings to fit your workflow
+- Report issues if you find bugs
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you have improvements!
+
+---
+
+**Made with love for the Hyprland community**
