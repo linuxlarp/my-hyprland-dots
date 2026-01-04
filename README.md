@@ -22,4 +22,4 @@ To install packages for **Arch Linux**, run the following commands
 
 # Example
 
-![Picture]()
+![Picture](https://github.com/linuxlarp/my-hyprland-dots/blob/master/example.jpg)
